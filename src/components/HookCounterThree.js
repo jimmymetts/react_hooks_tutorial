@@ -9,11 +9,14 @@ function HookCounterThree() {
     <form>
         <input input='text' 
         value={name.firstName} 
-        onChange={e => setName({firstName: e.target.value})} />
+        onChange={e => setName({ ...name, firstName: e.target.value})} />
 
         <input input='text' 
         value={name.lastName} 
-        onChange={e => setName({lastName: e.target.value})} />
+        onChange={e => setName({...name, lastName: e.target.value})} />
+
+        {/* ...name is a spread operator - will copy every property in the name 
+        object and overwrite with new value */}
         
 
     <h2>You first name is - {name.firstName}</h2>
