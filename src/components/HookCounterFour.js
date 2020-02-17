@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 
 function HookCounterFour() {
 
+    // How to useState with arrays
+
     const [items, setItems] = useState([])
 
     const addItem = () => {
