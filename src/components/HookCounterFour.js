@@ -9,7 +9,7 @@ function HookCounterFour() {
     const addItem = () => {
         setItems([...items, { 
             id: items.length, 
-            value: Math.floor(Math.random() * 2) + 1
+            value: Math.floor(Math.random() * 1) + 1
         }])
     }
 
