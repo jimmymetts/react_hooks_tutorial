@@ -16,7 +16,7 @@ function HookCounterFour() {
 
     return (
         <div>
-            <button onClick={addItem}>Add a number</button>
+            <button onClick={addItem}>Add a </button>
             <ul>
                 {items.map(item => (
                     <li key={item.id}> {item.value}</li>
