@@ -7,4 +7,8 @@ class ClassCounterOne extends Component {
             count: 0
         }
     }
+
+    componentDidMount() {
+        document.title = `Clicked ${this.state.count} times`
+    }
 }
