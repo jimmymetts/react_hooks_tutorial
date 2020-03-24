@@ -18,8 +18,8 @@ function App() {
 
 {/* <HookCounterFour/> */}
 
-{/* { <ClassCounterOne/> } */}
-{ <HookCounterOne/> }
+{ <ClassCounterOne/> }
+{/* { <HookCounterOne/> } */}
 
     </div>
   );
