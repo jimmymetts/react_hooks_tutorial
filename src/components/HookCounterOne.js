@@ -4,7 +4,7 @@ function HookCounterOne() {
     const [count, setCount] = useState(0)
 
     useEffect(() => {
-        document.title = `You clicked ${count} 100 times`
+        document.title = `You clicked ${count} times`
     })
 
     return (
