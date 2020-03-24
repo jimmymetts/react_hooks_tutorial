@@ -5,6 +5,7 @@ import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/HookCounterFour';
+import ClassCounterOne from './components/ClassCounterOne';
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
 {/* <HookCounterTwo/> */}
 {/* <HookCounterThree/> */}
 
-<HookCounterFour/>
+{/* <HookCounterFour/> */}
+
+{ <ClassCounterOne/> }
 
     </div>
   );
