@@ -26,3 +26,5 @@ function App() {
 }
 
 export default App;
+
+/* stopped on #7 3/23/20 */
